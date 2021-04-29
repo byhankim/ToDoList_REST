@@ -1,0 +1,3 @@
+package com.team2.todolistteam2_practice.common
+
+const val TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MjMsImlhdCI6MTYxOTM2OTQ0Mn0.fHa8KKc7jEuEmIqHyHtUSqtaMNqeY4bsp5WXpVltTsY"

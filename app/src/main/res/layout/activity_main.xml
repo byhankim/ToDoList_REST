@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/okhttp_activity_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/tv_padding_top"
+        android:paddingBottom="@dimen/tv_padding_top"
+        android:text="1. OkHttp"
+        android:textSize="@dimen/size_tv"/>
+    <TextView
+        android:id="@+id/retrofit_activity_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/tv_padding_top"
+        android:paddingBottom="@dimen/tv_padding_top"
+        android:text="2. Retrofit"
+        android:textSize="@dimen/size_tv" />
+    <TextView
+        android:id="@+id/okhttp_retrofit_activity_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/tv_padding_top"
+        android:paddingBottom="@dimen/tv_padding_top"
+        android:text="3. OkHttp + Retrofit"
+        android:textSize="@dimen/size_tv" />
+</LinearLayout>

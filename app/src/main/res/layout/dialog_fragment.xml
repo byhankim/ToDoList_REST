@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="@dimen/dialog_padding">
+
+    <TextView
+        android:id="@+id/dialog_title_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="바꿀 내용을 입력하시오!"
+        android:textSize="@dimen/dialog_title_tv_size"
+        />
+    <EditText
+        android:id="@+id/dialog_task_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dialog_title_tv"
+        android:layout_marginTop="@dimen/top_margin_between_tv"
+        android:layout_marginLeft="@dimen/dialog_et_padding_lr"
+        android:layout_marginRight="@dimen/dialog_et_padding_lr"
+        android:padding="@dimen/dialog_et_padding"
+        android:autofillHints="줄넘기 50000번 뛰기"
+        android:textSize="@dimen/dialog_task_et_size"
+        android:maxLines="1"
+        android:background="@android:color/holo_green_light"
+        android:inputType="text"
+        tools:ignore="LabelFor" />
+
+
+</RelativeLayout>

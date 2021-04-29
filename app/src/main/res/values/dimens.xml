@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tv_padding_top">10dp</dimen>
+    <dimen name="size_tv">20sp</dimen>
+    <dimen name="checkbox_margin_left">10dp</dimen>
+    <dimen name="dialog_padding">30dp</dimen>
+    <dimen name="dialog_title_tv_size">20sp</dimen>
+    <dimen name="dialog_task_et_size">17sp</dimen>
+    <dimen name="top_margin_between_tv">15dp</dimen>
+    <dimen name="dialog_et_padding_lr">10dp</dimen>
+    <dimen name="dialog_et_padding">5dp</dimen>
+    <dimen name="cancel_margin">30dp</dimen>
+    <dimen name="me_tv_margin">15dp</dimen>
+</resources>
