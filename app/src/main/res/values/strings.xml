@@ -1,4 +1,14 @@
 <resources>
     <string name="app_name">TodoListTeam2_PRACTICE</string>
     <string name="insert">create a todo item</string>
+    <string name="signin_title_tv">로그인</string>
+    <string name="signin_hint_et">아이디</string>
+    <string name="signin_hint_pw_et">비밀번호</string>
+    <string name="signin_btn_text">로그인</string>
+    <string name="signup_btn_text">회원가입</string>
+    <string name="signup_tv_text">회원가입</string>
+    <string name="signup_id_hint">아이디</string>
+    <string name="signup_uname_hint">닉네임</string>
+    <string name="signup_pw_hint">비밀번호</string>
+    <string name="signup_pw_check_hint">비밀번호 확인</string>
 </resources>

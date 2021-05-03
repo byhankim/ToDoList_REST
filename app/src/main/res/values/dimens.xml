@@ -11,4 +11,10 @@
     <dimen name="dialog_et_padding">5dp</dimen>
     <dimen name="cancel_margin">30dp</dimen>
     <dimen name="me_tv_margin">15dp</dimen>
+    <dimen name="signin_id_et_dim">250dp</dimen>
+    <dimen name="signin_pw_et_dim">250dp</dimen>
+    <dimen name="signin_btn_margin_left">42dp</dimen>
+    <dimen name="signin_btn_margin_top">35dp</dimen>
+    <dimen name="signin_btn_padding">12dp</dimen>
+    <dimen name="signin_activity_et_margin">15dp</dimen>
 </resources>

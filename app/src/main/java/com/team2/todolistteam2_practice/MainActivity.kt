@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.team2.todolistteam2_practice.databinding.ActivityMainBinding
+import com.team2.todolistteam2_practice.okhttp.OkHttpSignInActivity
 import com.team2.todolistteam2_practice.okhttp.ToDoOkHttpRESTActivity
 import com.team2.todolistteam2_practice.okhttp_retrofit.OkHttpRetrofitRESTActivity
 import com.team2.todolistteam2_practice.retrofit.RetrofitRESTActivity
@@ -17,7 +18,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.okhttpActivityTv.setOnClickListener {
-            val intent: Intent = Intent(this, ToDoOkHttpRESTActivity::class.java)
+            val intent: Intent = Intent(this, OkHttpSignInActivity::class.java)
             startActivity(intent)
         }
         binding.retrofitActivityTv.setOnClickListener {

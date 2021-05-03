@@ -39,6 +39,15 @@ class OkHttpManager {
                 .addPathSegment(targetURL2)
                 .build()
         }
+
+        // POST 방식
+        fun getOkHttpCreateTodo(targetURL: String): HttpUrl {
+            return HttpUrl.Builder()
+                .scheme("https")
+                .host(ADDRESS)
+                .addPathSegment(targetURL)
+                .build()
+        }
     }
 
 }

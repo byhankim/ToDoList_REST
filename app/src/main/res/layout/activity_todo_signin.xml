@@ -1,6 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:gravity="center">
 
+    <TextView
+        android:id="@+id/signin_activity_title_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/signin_title_tv"
+        android:padding="@dimen/signin_btn_padding"/>
+    <EditText
+        android:id="@+id/signin_id_et"
+        android:layout_below="@id/signin_activity_title_tv"
+        android:layout_width="@dimen/signin_id_et_dim"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:autofillHints="@string/signin_hint_et"
+        android:inputType="text"/>
+    <EditText
+        android:id="@+id/signin_pw_et"
+        android:layout_below="@id/signin_id_et"
+        android:layout_width="@dimen/signin_pw_et_dim"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/signin_activity_et_margin"
+        android:autofillHints="@string/signin_hint_pw_et"
+        android:inputType="textPassword"/>
+    <TextView
+        android:id="@+id/signin_btn_tv"
+        android:layout_below="@id/signin_pw_et"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/signin_pw_et"
+        android:layout_marginTop="@dimen/signin_btn_margin_top"
+        android:layout_marginStart="@dimen/signin_btn_margin_left"
+        android:text="@string/signin_btn_text"
+        android:padding="@dimen/signin_btn_padding"/>
+    <TextView
+        android:id="@+id/signup_btn_tv"
+        android:layout_below="@id/signin_pw_et"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@id/signin_pw_et"
+        android:layout_marginTop="@dimen/signin_btn_margin_top"
+        android:layout_marginEnd="@dimen/signin_btn_margin_left"
+        android:text="@string/signup_btn_text"
+        android:padding="@dimen/signin_btn_padding"/>
 </RelativeLayout>

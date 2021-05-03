@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/signup_title_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/signup_tv_text" />
+    <EditText
+        android:id="@+id/signup_id_et"
+        android:layout_width="@dimen/signin_id_et_dim"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/signup_title_tv"
+        android:hint="@string/signup_id_hint"/>
+    <EditText
+        android:id="@+id/signup_uname_et"
+        android:layout_width="@dimen/signin_id_et_dim"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/signup_id_et"
+        android:hint="@string/signup_uname_hint" />
+    <EditText
+        android:id="@+id/signup_pw_et"
+        android:layout_width="@dimen/signin_id_et_dim"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/signup_uname_et"
+        android:hint="@string/signup_pw_hint"/>
+    <EditText
+        android:id="@+id/signup_pw_check_et"
+        android:layout_width="@dimen/signin_id_et_dim"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/signup_pw_et"
+        android:hint="@string/signup_pw_check_hint" />
+    <TextView
+        android:id="@+id/login_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/signup_pw_check_et"
+        android:layout_margin="@dimen/me_tv_margin"
+        android:text="@string/signin_btn_text" />
+    <TextView
+        android:id="@+id/signup_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/signup_pw_check_et"
+        android:layout_alignEnd="@id/signup_pw_check_et"
+        android:layout_margin="@dimen/me_tv_margin"
+        android:text="@string/signup_btn_text" />
+</RelativeLayout>

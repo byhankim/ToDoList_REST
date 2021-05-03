@@ -23,6 +23,8 @@
         </activity>
         <activity
             android:name=".okhttp.ToDoOkHttpRESTActivity" />
+        <activity android:name=".okhttp.OkHttpSignInActivity" />
+        <activity android:name=".okhttp.OkHttpSignUpActivity" />
         <activity
             android:name=".retrofit.RetrofitRESTActivity"
             android:windowSoftInputMode="adjustPan|stateAlwaysVisible" />

@@ -19,6 +19,12 @@
         android:id="@+id/fix_btn"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_alignParentEnd="true"
+        android:layout_toStartOf="@id/rm_btn"
         android:background="@drawable/owl_sleeping" />
+    <TextView
+        android:id="@+id/rm_btn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:background="@android:drawable/btn_star"/>
 </RelativeLayout>
